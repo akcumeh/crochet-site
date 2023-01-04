@@ -1,2 +1,187 @@
 @media only screen and (max-width: 720px) {
+    body {
+        max-width: 100vw;
+        border: 0 !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        font-family: "Roboto", sans-serif;
+        background-color: #F9F6E7;
+    }
+
+    main {
+        width: 99vw;
+        margin: 0 auto;
+    }
+
+    /* Navbar */
+    nav {
+        background-color: #F19C79;
+    }
+
+    .navbar-brand {
+        font-family: "Euphoria Script", cursive;
+        font-size: 3.25rem;
+        color: #F9F6E7;
+    }
+
+    .navbar-brand:hover {
+        color: #84D7D0;
+    }
+
+    .nav-item {
+        height: 10vw;
+        width: 20vw;
+        margin: 2.5%;
+    }
+
+    .nav-link {
+        font-family: "Euphoria Script", cursive;
+        font-size: 2rem;
+        color: #F9F6E7;
+    }
+
+    .nav-link:hover {
+        color: #84D7D0;
+    }
+
+    .navbar-toggler:hover {
+        background-color: #F8DBB0;
+    }
+
+    /* Section 1: Home/Intro */
+    .sec-01 {
+        width: inherit;
+        height: auto;
+        padding: 2.5%;
+        background-color: #F19C79;
+    }
+
+    .overlay {
+        height: auto;
+        width: 50vw;
+        border-radius: 100%;
+        margin: 10% auto;
+        padding: 0;
+        background-color: #f8dbb0;
+    }
+
+    .creator {
+        height: inherit;
+        width: inherit;
+        border-radius: inherit;
+        z-index: -1;
+        mix-blend-mode: multiply;
+    }
+
+    .intro {
+        width: auto;
+        margin: 5vw auto;
+        font-weight: 300;
+        color: #F9F6E7;
+    }
+
+    h1 {
+        font-size: 3rem;
+        font-family: "Roboto Slab", serif;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 2rem;
+        font-family: "Roboto Slab", serif;
+        text-align: center;
+        margin: 5% 0 !important;
+    }
+
+    .cursive {
+        font-family: "Euphoria Script", cursive;
+        font-size: 4.5rem;
+        color: #F8DBB0;
+    }
+
+    p {
+        padding: 0;
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    .sec-02 {
+        padding: 10% 2.5%;
+    }
+
+    .sec-02 h1 {
+        margin: 5% 0;
+        font-family: "Euphoria Script", cursive;
+        font-size: 5rem;
+        color: #84D7D0;
+    }
+
+    .carousel-item {
+        width: inherit;
+        height: max-content;
+        padding: 2.5%;
+    }
+
+    .project-img-overlay {
+        width: 50%;
+        height: max-content;
+        border: #84D7D0 dashed 7.5px;
+        border-radius: 50px;
+        padding: 5%;
+        margin: 10% 25%;
+        background-color: #F27B6E;
+    }
+
+    .project-img {
+        width: 100%;
+        height: auto;
+        border-radius: inherit;
+    }
+
+    .project-stats {
+        height: 25%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        border-radius: 25px;
+    }
+
+    .stat {
+        width: 33.333%;
+        margin: 2.5% 2.5%;
+        align-self: center;
+        align-content: center;
+        background-color: #F27B6E;
+        color: #F8DBB0;
+        border-radius: 100%;
+        border: #84D7D0 dashed 5px;
+    }
+
+    .stat-text {
+        height: 50%;
+        margin: 25% 0 !important;
+    }
+
+    .stat:nth-child(even) {
+        background-color: #F27B6E;
+        color: #F8DBB0;
+    }
+
+    .stat:nth-child(odd) {
+        background-color: #F8DBB0;
+        color: #F27B6E;
+    }
+
+    /* .logo-active {
+        visibility: visible;
+    }
+
+    .logo-inactive {
+        display: none;
+        visibility: hidden;
+    } */
+}
+
+@media only screen and (min-width: 721px) {
+    /* content */
 }

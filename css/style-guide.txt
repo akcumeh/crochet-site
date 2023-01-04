@@ -1,0 +1,12 @@
+# Colors
+
+- #84D7D0 = Middle Blue Green = "aqua?"
+- #F27B6E = Salmon            = "deep peach"
+- #F19C79 = Light Salmon      = "peach-pink"
+- #F8DBB0 = Navajo White      = "cream"
+- #F9F6E7 = Cosmic Latte      = "off-white"
+
+# Fonts
+- Roboto              = Body (main)
+- Roboto Slab         = Headers
+- Euphoria Script     = Cursive where necessary
