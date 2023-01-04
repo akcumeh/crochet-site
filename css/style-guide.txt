@@ -5,6 +5,7 @@
 - #F19C79 = Light Salmon      = "peach-pink"
 - #F8DBB0 = Navajo White      = "cream"
 - #F9F6E7 = Cosmic Latte      = "off-white"
+- #A44A3F = Medium Carmine    = "red-brown"
 
 # Fonts
 - Roboto              = Body (main)
